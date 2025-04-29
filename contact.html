@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="Contact US" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact US - Taniti</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body style="background-color: white;">
+
+ <header>
+    <div class="container">
+      <img src="images/logo.webp" alt="Taniti Logo" class="logo">
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="attractions.html">Attractions</a></li>
+          <li><a href="shopping.html">Shopping</a></li>
+          <li><a href="accommodations.html">Accommodations</a></li>
+          <li><a href="transportation.html">Transporation</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#"><span class="cart">🛒</span></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+   <main class="contact-container">
+     <h2 class="section-title">Contact us</h2>
+    <form onsubmit="validateEmails(event)">
+      <div class="form-group">
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" placeholder="Enter your first name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" placeholder="Enter your last name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="confirm-email">Confirm Email:</label>
+        <input type="email" id="confirm-email" placeholder="Re-enter your email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea id="message" placeholder="Enter your message here..." required></textarea>
+      </div>
+
+      <button type="submit" class="submit-btn">Submit</button>
+    </form>
+  </div>
+ </main>
+<footer>
+  <div class="footer-container">
+    <div class="social-icons">
+      <a href="contact.html"><i class="fab fa-x-twitter"></i></a>
+      <a href="contact.html"><i class="fab fa-instagram"></i></a>
+      <a href="contact.html"><i class="fab fa-youtube"></i></a>
+      <a href="contact.html"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+    <div class="footer-links">
+      <div>
+        <h4><a href="attractions.html">Attractions</a></h4>
+        <p><a href="#">Sightseeing</a></p>
+        <p><a href="#">Entertainment</a></p>
+      </div>
+      <div>
+        <h4><a href="shopping.html">Shopping</a></h4>
+        <p><a href="#">Restaurants</a></p>
+        <p><a href="#">Grocery Stores</a></p>
+      </div>
+      <div>
+        <h4><a href="accommodations.html">Accommodations</a></h4>
+        <p><a href="#">Hotels</a></p>
+        <p><a href="#">Resort</a></p>
+        <p><a href="#">Bed & Breakfasts</a></p>
+      </div>
+      <div>
+        <h4><a href="transportation.html">Transportation</a></h4>
+        <p><a href="#">Air & Water Transportation</a></p>
+        <p><a href="#">Ground Transportation</a></p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
